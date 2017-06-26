@@ -1,0 +1,82 @@
+﻿  source.cpp
+d:\github\multi-object-tracker\dlib-19.3\dlib\matrix\../general_hash/random_hashing.h(685): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  jcapimin.cpp
+  jcapistd.cpp
+  jccoefct.cpp
+  jccolor.cpp
+  jcdctmgr.cpp
+  jchuff.cpp
+  jcinit.cpp
+  jcmainct.cpp
+  jcmarker.cpp
+  jcmaster.cpp
+  jcomapi.cpp
+  jcparam.cpp
+  jcphuff.cpp
+  jcprepct.cpp
+  jcsample.cpp
+  jdapimin.cpp
+  jdapistd.cpp
+  jdatadst.cpp
+  jdatasrc.cpp
+  컴파일하고 있습니다...
+  jdcoefct.cpp
+  jdcolor.cpp
+  jddctmgr.cpp
+  jdhuff.cpp
+  jdinput.cpp
+  jdmainct.cpp
+  jdmarker.cpp
+  jdmaster.cpp
+  jdmerge.cpp
+  jdphuff.cpp
+  jdpostct.cpp
+  jdsample.cpp
+  jerror.cpp
+  jfdctflt.cpp
+  jfdctfst.cpp
+  jfdctint.cpp
+  jidctflt.cpp
+  jidctfst.cpp
+  jidctint.cpp
+  jidctred.cpp
+  컴파일하고 있습니다...
+  jmemmgr.cpp
+  jmemnobs.cpp
+  jquant1.cpp
+  jquant2.cpp
+  jutils.cpp
+  FrameReader.cpp
+C:\opencv 3.0.0\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\opencv 3.0.0\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\opencv 3.0.0\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\opencv 3.0.0\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  InitRectDrawer.cpp
+C:\opencv 3.0.0\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\opencv 3.0.0\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\opencv 3.0.0\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\opencv 3.0.0\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  Main.cpp
+C:\opencv 3.0.0\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\opencv 3.0.0\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\opencv 3.0.0\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\opencv 3.0.0\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+d:\dlib-19.3\dlib\matrix\../general_hash/random_hashing.h(685): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+d:\dlib-19.3\dlib\image_transforms/morphological_operations.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+..\..\src\Main.cpp(32): warning C4800: 'int': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+..\..\src\Main.cpp(33): warning C4806: '==': 안전하지 않은 연산입니다. 'bool' 형식의 값('int' 형식으로 확장)이 주어진 상수와 같을 수 없습니다.
+..\..\src\Main.cpp(37): warning C4800: 'int': 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+..\..\src\Main.cpp(38): warning C4806: '==': 안전하지 않은 연산입니다. 'bool' 형식의 값('int' 형식으로 확장)이 주어진 상수와 같을 수 없습니다.
+  Tracker.cpp
+C:\opencv 3.0.0\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\opencv 3.0.0\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\opencv 3.0.0\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\opencv 3.0.0\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+d:\dlib-19.3\dlib\matrix\../general_hash/random_hashing.h(685): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+d:\dlib-19.3\dlib\image_transforms/morphological_operations.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  코드를 생성하고 있습니다.
+d:\github\multi-object-tracker\tracker\src\framereader.cpp(94): warning C4715: 'FrameReader::getNextFrame': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  All 9013 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  MultiObjectTracker.vcxproj -> D:\Github\multi-object-tracker\tracker\vs_solution\x64\Release\MultiObjectTracker.exe
+  MultiObjectTracker.vcxproj -> D:\Github\multi-object-tracker\tracker\vs_solution\x64\Release\MultiObjectTracker.pdb (Full PDB)

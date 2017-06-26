@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{240f2f3f-0464-4f52-a495-caac6a298c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\libjpeg">
+      <UniqueIdentifier>{aa2ffde6-f14e-4dc1-a0f2-429d189ca45d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\all\source.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jcapimin.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jcapistd.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jccoefct.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jccolor.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jcdctmgr.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jchuff.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jcinit.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jcmainct.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jcmarker.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jcmaster.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jcomapi.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jcparam.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jcphuff.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jcprepct.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jcsample.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdapimin.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdapistd.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdatadst.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdatasrc.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdcoefct.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdcolor.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jddctmgr.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdhuff.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdinput.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdmainct.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdmarker.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdmaster.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdmerge.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdphuff.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdpostct.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdsample.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jerror.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jfdctflt.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jfdctfst.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jfdctint.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jidctflt.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jidctfst.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jidctint.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jidctred.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jmemmgr.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jmemnobs.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jquant1.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jquant2.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jutils.cpp">
+      <Filter>External\libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\FrameReader.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\InitRectDrawer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Tracker.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jchuff.h">
+      <Filter>External\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jconfig.h">
+      <Filter>External\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdct.h">
+      <Filter>External\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jdhuff.h">
+      <Filter>External\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jerror.h">
+      <Filter>External\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jinclude.h">
+      <Filter>External\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jmemsys.h">
+      <Filter>External\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jmorecfg.h">
+      <Filter>External\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jpegint.h">
+      <Filter>External\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jpeglib.h">
+      <Filter>External\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dlib-19.3\dlib\external\libjpeg\jversion.h">
+      <Filter>External\libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\FrameReader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\InitRectDrawer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Tracker.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\dlib-19.3\dlib\external\libjpeg\README">
+      <Filter>External\libjpeg</Filter>
+    </None>
+  </ItemGroup>
+</Project>
