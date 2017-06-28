@@ -7,9 +7,19 @@ Multiple objects tracker using openCV and dlib
 * __dlib-19.3__  
 * __visual studio 15 (c+11 is necessary)__  
 
+# Directories  
+__1. dlib-19.3__  
+dlib
+
+__2. tracker__  
+Source files in __src__ and visual studio solution in __vs_solution__
+
+__3. video_frame__  
+Video frame images  
+
 # How to compile
 To run this program, you need to compile __opencv__ and __dlib__. You will be able to compile __opencv__ easily from many websites.
-The folliwing instruction is how to compile dlib given that you are done with opencv compiling clearly and using visual studio in window. If you have troubles in compiling dlib then you can just use __tracker/vs_solution/MultiObjectTracker.sln__ instead, but you need to change opencv path with your environment in the project property.  
+The folliwing instruction is how to compile dlib given that you are done with opencv compiling clearly and using visual studio in window. If you have troubles in compiling dlib then you can just use __tracker/vs_solution/MultiObjectTracker.sln__ instead, but you need to change opencv path and dlib path with your environment in the project property.  
 
 1. Make a new visual studio project.  
 
@@ -27,7 +37,7 @@ The folliwing instruction is how to compile dlib given that you are done with op
 
 1. Open cmd and move to the directory which has exe file.
 
-2. Write command : __MultiObjectTracker.exe "YOUR_FRAME_IMAGE_PATH"__. If you're using frame images in this repository, the command is __MultiObjectTracker.exe "video_frame"__.
+2. Write command : __MultiObjectTracker.exe "YOUR_FRAME_IMAGE_PATH"__. If you're using frame images in this repository, the command is __MultiObjectTracker.exe ../../../../video_frame__.
 
 3. You will be able to see a window with the first frame image. Draw rectangles around the targets you want to track. You can use `ESC` __if you want to remove rectangles__ and `ENTER` __if you are done with drawing__.
 
@@ -37,6 +47,6 @@ The folliwing instruction is how to compile dlib given that you are done with op
 
 1. Attach detector. (Pedestrian detector as an example)
 
-2. Divide __tracker/Tracker.cpp__ into several files.
+2. Divide __tracker/Tracker.cpp__ into several files => __DONE__.  
 
-3. Multi thread
+3. Multi thread => __DONE__
