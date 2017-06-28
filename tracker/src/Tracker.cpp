@@ -542,7 +542,7 @@ Function : terminateSystem
 Draw rectangle around the each target and put target id on rectangle.
 
 ----------------------------------------------------------------------------------- */
-int TrackingSystem::terminateSystem()
+void TrackingSystem::terminateSystem()
 {
 	std::vector<std::shared_ptr<SingleTracker>> remaining_tracker = manager.getTrackerVec();
 
@@ -551,6 +551,4 @@ int TrackingSystem::terminateSystem()
 		[](std::shared_ptr<SingleTracker> ptr) { ptr.reset(); });
 
 	std::cout << "Close Tracking System..." << std::endl;
-
-	return 0;
 }
