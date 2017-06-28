@@ -22,7 +22,7 @@ then need to have 'Three' SingleTracker object.
 class SingleTracker
 {
 private:
-	int			target_id;			// Unique Number for target
+	int		target_id;			// Unique Number for target
 	double		confidence;			// Confidence of tracker
 	cv::Rect	rect;				// Initial Rectangle for target
 	cv::Point	center;				// Current center point of target
@@ -183,5 +183,5 @@ public:
 	int drawTrackingResult(cv::Mat& _mat_img);
 
 	// Terminate program
-	int terminateSystem();
+	void terminateSystem();
 };
