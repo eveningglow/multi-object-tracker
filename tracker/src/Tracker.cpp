@@ -161,6 +161,7 @@ int SingleTracker::doSingleTracking(cv::Mat& _mat_img)
 
 
 
+
 /* -------------------------------------------------------------------------
 
 Function : insertTracker
@@ -461,10 +462,17 @@ int TrackingSystem::startTracking(cv::Mat& _mat_img)
 		}
 	});
 
-	// For all SingleTracker, do SingleTracker::doSingleTracker
+	vector<std::thread> thread_pool;
+	
+	// Multi thread
 	std::for_each(manager.getTrackerVec().begin(), manager.getTrackerVec().end(), [&](std::shared_ptr<SingleTracker> ptr) {
-		ptr.get()->doSingleTracking(_mat_img);
+		thread_pool.emplace_back([ptr, &_mat_img]() { 
+		 ptr.get()->doSingleTracking(_mat_img); 
+		});
 	});
+
+	for (int i = 0; i < thread_pool.size(); i++)
+		thread_pool[i].join();
 
 	// If target is going out of the frame, delete that tracker.
 	std::for_each(manager.getTrackerVec().begin(), manager.getTrackerVec().end(), [&](std::shared_ptr<SingleTracker> ptr) {

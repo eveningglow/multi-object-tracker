@@ -2,6 +2,7 @@
 #include "InitRectDrawer.h"
 #include "Tracker.h"
 
+
 using namespace std;
 using namespace cv;
 
@@ -25,16 +26,17 @@ int main(int argc, char* argv[])
 	// Create FrameReader Object
 	FrameReader frame_reader = system.getFrameReader();
 
+
 	// Track targets
 	while (true)
 	{
 		// Get next frame
-		bool frame_read_success = frame_reader.getNextFrame(mat_img);
+		int frame_read_success = frame_reader.getNextFrame(mat_img);
 		if (frame_read_success == FAIL)
 			break;
-
+	
 		// Tracking
-		bool tracking_success = system.startTracking(mat_img);
+		int tracking_success = system.startTracking(mat_img);
 		if (tracking_success == FAIL)
 			break;
 
